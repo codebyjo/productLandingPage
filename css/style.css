@@ -225,3 +225,23 @@ html, body {
 #section3 {
     background-color: #f06;
 }
+
+.nav-item {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.nav-link {
+ font-size: 15px;
+}
+
+.form-inline {
+ padding-top: 23px;
+ text-align: center;
+}
+
+.form-control {
+  height: 23px;
+
+}

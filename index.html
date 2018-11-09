@@ -44,16 +44,16 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 <body>
   
   
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent navbar">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" id="header-img" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
 
      <li class="nav-item dropdown">
@@ -112,7 +112,12 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
   </div>
 </nav>
 
+
+  </div>
+  
   <section class="wrapper" id="section">
+    <div id="header-img">for a video to automatically play
+    </div>
     Blah
   </section>
   
@@ -120,10 +125,17 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
     Blah
     </section>
   
-    <section class="wrapper" id="section3">
+    <section class="wrapper" id="section3" id="form">
+      Put a form here
+      
+      put contant info in email with id=id="email", put input field and validation
+      id="submit" button
+<!--When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) that confirms the email address was entered and that it posted successfully.
+User Story #13: The navbar should always be at the top of the viewport.-->
     Blah
     </section>
   
+  <!-- use one media query and use one flexbox-->
   
 
     <!-- Footer -->
