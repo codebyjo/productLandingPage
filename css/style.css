@@ -250,3 +250,27 @@ html, body {
 .input-group-btn {
  height: 23px;
 }
+
+.input-group-btn {
+ height: auto;
+}
+
+#header {
+ height: 90px;
+}
+
+.navbar2 {
+ height: 40px;
+ background-color: #393939;
+ overflow: hidden;
+ color: white;
+ text-align: center;
+ margin: auto;
+ padding-top: 9px;
+ font-family: Verdana;
+ text-transform: uppercase;
+}
+
+.navbar2 {
+ 
+}
