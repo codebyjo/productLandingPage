@@ -229,7 +229,7 @@ html, body {
 .nav-item {
     font-size: 1.5em;
     text-align: center;
-    padding-top: 23px;
+    padding: 23px 5px 0 5px;
 }
 
 .nav-link {
@@ -238,10 +238,15 @@ html, body {
 
 .form-inline {
  padding-top: 23px;
- text-align: center;
+
 }
 
 .form-control {
   height: 23px;
 
+}
+
+
+.input-group-btn {
+ height: 23px;
 }
